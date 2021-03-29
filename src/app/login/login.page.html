@@ -1,0 +1,37 @@
+<ion-content>
+    <body>
+        <form id = "login-form">
+            <img src = "assets/icon/arthibit logo-02.png" class="logo">
+            <h1 class="title">Login</h1>
+            <p>Sign in to your account</p>
+
+            <ion-card class="ion-no-margin">
+                <ion-card-content>
+                    <ion-item>
+                        <ion-input type="text" name="email" placeholder="Email">
+                       <ion-icon name="mail-outline"></ion-icon>
+                       </ion-input>
+                    </ion-item>
+        
+                    <ion-item>
+                        <ion-input type="password" name="password" placeholder="Password" >
+                        <ion-icon name="lock-closed"></ion-icon>
+                        </ion-input>
+                    </ion-item>
+        
+                    <div class="forgot-password">
+                        <ion-button fill="clear" class="ion-no-padding">Forgot Pasword?</ion-button>
+                     </div>
+                     <div class="sign-btn-wrap">
+                        <ion-button  shape="round" fill="solid" class="sign-btn">Login</ion-button>
+                       </div>
+                </ion-card-content>
+            </ion-card>           
+        </form>
+        
+        <div class="ion-card-footer">
+            <span>Don’t have an account yet?</span><button class="ion-no-padding" routerLink = "/register">Register Now</button>
+        </div>
+    </body>
+</ion-content>
+
